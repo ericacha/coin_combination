@@ -25,4 +25,12 @@
     it("tells the user what coins are needed for nine cents", function() {
     expect(coinCombine(9)).to.equal("You need 1 nickel and 4 pennies");
     });
+
+    it("tells the user what coins are needed for fourteen cents", function() {
+    expect(coinCombine(14)).to.equal("You need 1 dime and 4 pennies");
+    });
+
+    it("tells the user what coins are needed for sixteen cents", function() {
+    expect(coinCombine(16)).to.equal("You need 1 dimes, 1 nickels, and 1 pennies");
+    });
  });
