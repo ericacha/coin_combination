@@ -10,7 +10,7 @@ var coinCombine = function(amount) {
   var pennies = Math.floor(amount/1);
   amount = amount - (pennies * 1);
 
-  return "You need " + quarters + " quarters, " + dimes + " dimes, " + nickels + " nickels," + " and " + pennies + " pennies";
+  return "You need " + quarters + " quarter(s), " + dimes + " dime(s), " + nickels + " nickel(s)," + " and " + pennies + " pennies";
 
 
 };
